@@ -3,7 +3,7 @@
 
 <ul>
   <li><a href="#">Documentation</a></li>
-  <li><a href="#"></a>Website</a></li>
-  <li><a href="#"></a>Discord</a></li>
-  <li><a href="#"></a>YouTube</a></li>
+  <li><a href="#">Website</a></li>
+  <li><a href="#">Discord</a></li>
+  <li><a href="#">YouTube</a></li>
 </ul>
