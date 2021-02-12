@@ -1,6 +1,26 @@
 .footer-link {
 	text-align: center;
 	padding: 20px 0;
-	color: #999999;
+	background-color: #8e43a5;
 	font-size: 0.9rem;
+}
+
+.button-link {
+	background-color: #282c34;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 12px 20px;
+	border-radius: 8px;
+	font-size: 1.18rem;
+	display: inline-block;
+}
+
+.button-link-two {
+	background-color: #3b414d;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 12px 20px;
+	border-radius: 8px;
+	font-size: 1.18rem;
+	display: inline-block;
 }

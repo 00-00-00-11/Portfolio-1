@@ -10,10 +10,10 @@ class MainHeader extends Component {
 					<h1>Jamal's Portfolio</h1>
 
 					<ul class="nav-link">
-						<a href="">Home</a>
-						<a href="">Hire</a>
-						<a href="">Contact</a>
-						<a href="./pages/Test.js">Test</a>
+						<a href="/">Home</a>
+						<a href="/hire/us">Hire</a>
+						<a href="/contact/us">Contact</a>
+						<a href="/development">Test</a>
 					</ul>
 				</div>
 			</div>

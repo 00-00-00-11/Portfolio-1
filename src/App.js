@@ -1,18 +1,16 @@
 import "./build/App.css";
-import Greet_text from "./components/js/home/Greet_text";
-import Message from "./components/js/home/Message";
-import React_Logo from "./components/React_Logo";
 import MainHeader from "./components/Header";
+import MainFooter from "./components/Footer";
+import Home_Page from "./pages/Home_Page";
 
 function App() {
 	return (
 		<div className="App">
 			<MainHeader />
 			<header className="App-header">
-				<Greet_text />
-				<React_Logo />
-				<Message />
+				<Home_Page />
 			</header>
+			<MainFooter />
 		</div>
 	);
 }

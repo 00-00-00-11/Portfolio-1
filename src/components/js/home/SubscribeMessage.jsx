@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Message extends Component {
+class SubscribeMessage extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -34,6 +34,6 @@ class Message extends Component {
 	}
 }
 
-export default Message;
+export default SubscribeMessage;
 
 // learning how to use states
