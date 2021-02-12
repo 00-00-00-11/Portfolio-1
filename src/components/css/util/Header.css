@@ -17,6 +17,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-size: calc(13px + 1vmin);
 	/* Word spacing */
 	text-indent: 15px;
 }
