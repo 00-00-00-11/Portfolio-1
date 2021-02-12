@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import React_Logo from "./components/React_Logo";
 import MainHeader from "./components/Header";
 
