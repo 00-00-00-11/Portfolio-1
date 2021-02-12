@@ -2,7 +2,7 @@ import "./App.css";
 import React_Logo from "./components/React_Logo";
 import MainHeader from "./components/Header";
 
-function App() {
+function Test_Page() {
 	return (
 		<div className="App">
 			<MainHeader />
@@ -14,4 +14,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Test_Page;
