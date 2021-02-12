@@ -7,8 +7,7 @@ function Test_Page() {
 		<div className="App">
 			<MainHeader />
 			<header className="App-header">
-				<Greet_text />
-				<React_Logo />
+				<div>Home Page!</div>
 			</header>
 		</div>
 	);
