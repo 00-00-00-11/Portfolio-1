@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../build/App.css";
 import "./css/util/Header.css";
+import { Link } from "react-router-dom";
 
 class MainHeader extends Component {
 	render() {
@@ -10,10 +11,10 @@ class MainHeader extends Component {
 					<h1>Jamal's Portfolio</h1>
 
 					<ul class="nav-link">
-						<a href="/">Home</a>
-						<a href="/resume">Resume</a>
-						<a href="/contact-us">Contact</a>
-						<a href="/development">Test</a>
+						<Link to="/">Home</Link>
+						<Link to="/resume">Resume</Link>
+						<Link to="/contact-us">Contact</Link>
+						<Link to="/development">Test</Link>
 					</ul>
 				</div>
 			</div>
