@@ -4,7 +4,7 @@ const Greet_text = (props) => {
 	console.log(props);
 	return (
 		<div>
-			<h1>You made it to the website!</h1>
+			<h1>Welcome to the home page!</h1>
 		</div>
 	);
 };
