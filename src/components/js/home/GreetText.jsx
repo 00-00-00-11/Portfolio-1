@@ -1,6 +1,6 @@
 import React from "react";
 
-const Greet_text = (props) => {
+const Greettext = (props) => {
 	console.log(props);
 	return (
 		<div>
@@ -8,6 +8,6 @@ const Greet_text = (props) => {
 		</div>
 	);
 };
-export default Greet_text;
+export default Greettext;
 
 // learning how to use props and functions

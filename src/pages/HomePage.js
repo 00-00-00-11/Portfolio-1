@@ -1,10 +1,10 @@
 import "../build/App.css";
-import React_Logo from "../components/React_Logo";
-import Greet_text from "../components/js/home/Greet_text";
-import SubscribeMessage from "../components/js/home/SubscribeMessage";
+import ReactLogo from "../components/React_Logo";
+import Greettext from "../components/js/home/GreetText";
+
 // import { useState } from "react";
 
-function Home_Page() {
+function HomePage() {
 	// const [blogs, setBlogs] = useState([
 	// 	{ title: "My new website", body: "lorem ipsum...", author: "jamal", id: 1 },
 	// 	{ title: "Welcome party!", body: "lorem ipsum...", author: "jada", id: 2 },
@@ -19,9 +19,9 @@ function Home_Page() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<Greet_text />
-				<React_Logo />
-				<SubscribeMessage />
+				<Greettext />
+				<ReactLogo />
+
 				{/* <div>
 					{blogs.map((blog) => (
 						<div className="blog-preview" key={blog.id}>
@@ -35,4 +35,4 @@ function Home_Page() {
 	);
 }
 
-export default Home_Page;
+export default HomePage;

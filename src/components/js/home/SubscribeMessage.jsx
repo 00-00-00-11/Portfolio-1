@@ -4,7 +4,7 @@ class SubscribeMessage extends Component {
 	constructor() {
 		super();
 		this.state = {
-			message: "Welcome Visitor!",
+			message: "Click the Button below to subscribe!",
 		};
 	}
 	// making an interactive button
@@ -18,7 +18,6 @@ class SubscribeMessage extends Component {
 		return (
 			<div>
 				<h1>{this.state.message}</h1>
-				<p>Want to view my YouTube channel? Click below! </p>
 				<button onClick={() => this.changeMessage()}>
 					<a
 						className="Button-link"

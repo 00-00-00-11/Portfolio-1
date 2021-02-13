@@ -1,0 +1,29 @@
+.test-header-link {
+	background-color: #a15252;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	color: white;
+}
+
+.test-header-text-color {
+	color: rgb(96, 185, 245);
+}
+
+.test-img-main-def {
+	width: 600px;
+	height: 400px;
+}
+
+.test-button-link {
+	background-color: #282c34;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 12px 20px;
+	border-radius: 8px;
+	font-size: 1.18rem;
+	display: inline-block;
+}
