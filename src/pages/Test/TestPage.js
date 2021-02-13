@@ -8,7 +8,7 @@ const TestPage = () => {
 		<div>
 			<div className="test-header-link test-header-text-color">
 				<h1>This is a Development page</h1>
-				<p>It may more may not be stable...</p>
+				<p>It may or may not be stable...</p>
 			</div>
 			<div className="page-build-raw">
 				<h2>Ah I see you want to test some of my skills huh?</h2>
@@ -19,7 +19,7 @@ const TestPage = () => {
 				<img
 					className="test-img-main-def"
 					src="https://media.giphy.com/media/cgCMnZr84zE40/giphy.gif"
-					alt="Please Stand By Image"
+					alt="Epic Gamer playing games!"
 				></img>
 				<p></p>
 				<p></p>

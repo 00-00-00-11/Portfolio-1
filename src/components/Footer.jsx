@@ -9,7 +9,7 @@ class MainFooter extends Component {
 				<div class="footer-link">
 					<p>&copy; ThatGuyJamal</p>
 					<a
-						href="https://github.com/ThatGuyJamal/Basic-HTML-Template"
+						href="https://github.com/ThatGuyJamal/	"
 						class="button-link"
 						target="_blank"
 					>

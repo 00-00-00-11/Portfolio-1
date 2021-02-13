@@ -30,6 +30,6 @@
 }
 
 .nav-link a:hover {
-	color: #c5cae9;
+	color: rgb(92, 179, 230);
 	transform: rotate(6deg);
 }

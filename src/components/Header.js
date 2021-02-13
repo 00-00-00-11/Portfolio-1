@@ -8,7 +8,11 @@ class MainHeader extends Component {
 		return (
 			<div>
 				<div class="Header-link">
-					<h1>Jamal's Portfolio</h1>
+					<h1>
+						<Link to="/" className="link">
+							Jamal's Portfolio
+						</Link>
+					</h1>
 
 					<ul class="nav-link">
 						<Link to="/">Home</Link>
