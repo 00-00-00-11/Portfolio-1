@@ -2,11 +2,11 @@
 
 import React from "react";
 
-const NAME = (props) => {
-console.log(props);
+const NAME = () => {
 return (
+
 <div>
-// SOME CODE HERE!
+<h1>Some Code Here!</h1>
 </div>
 );
 };
@@ -21,7 +21,7 @@ render() {
 return (
 
 <div>
-// SOME CODE HERE!
+<h1>Some Code Here!</h1>
 </div>
 );
 }

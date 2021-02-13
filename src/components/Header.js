@@ -11,7 +11,7 @@ class MainHeader extends Component {
 
 					<ul class="nav-link">
 						<a href="/">Home</a>
-						<a href="/hire-me">Hire</a>
+						<a href="/resume">Resume</a>
 						<a href="/contact-us">Contact</a>
 						<a href="/development">Test</a>
 					</ul>
