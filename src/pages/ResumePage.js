@@ -4,7 +4,7 @@ import "../components/css/resume/style.css";
 const ResumePage = () => {
 	return (
 		<div className="page-build">
-			<h1>Want to hire me?</h1>
+			<h1 className="text-color-link-light-orange">Want to hire me?</h1>
 		</div>
 	);
 };

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../../css/util/Main.css";
 
 class SubscribeMessage extends Component {
 	constructor() {
@@ -20,7 +21,7 @@ class SubscribeMessage extends Component {
 				<h1>{this.state.message}</h1>
 				<button onClick={() => this.changeMessage()}>
 					<a
-						className="Button-link"
+						className="button-style-pur-link"
 						href="https://www.youtube.com/channel/UCVOQobByo_2WISQf2037eXQ"
 						target="_blank"
 						rel="noopener noreferrer"

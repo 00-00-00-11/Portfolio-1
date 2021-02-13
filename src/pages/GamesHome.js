@@ -8,10 +8,10 @@ function GamesHome() {
 			<div className="App">
 				<header className="App-header">
 					<h1>Games!</h1>
-					<p>
+					<p className="text-color-link-light-orange">
 						Each button below goes to a different game to play. If there are any
 						bugs or errors repor them to the
-						<Link to="/contact-us">contact page.</Link> Thanks and enjoy!
+						<Link to="/contact-us"> contact page.</Link> Thanks and enjoy!
 					</p>
 				</header>
 			</div>

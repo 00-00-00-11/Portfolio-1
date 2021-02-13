@@ -32,6 +32,18 @@
 	color: coral;
 }
 
+/* For the react defult link colors */
+a {
+	color: rgb(92, 179, 230);
+}
+a:hover {
+	color: rgb(161, 87, 196);
+}
+
+.text-color-link-light-orange {
+	color: rgb(233, 194, 110);
+}
+
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
