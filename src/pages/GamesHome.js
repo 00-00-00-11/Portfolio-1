@@ -19,7 +19,7 @@ function GamesHome() {
 						<Link to="/contact-us"> contact page.</Link> Thanks and enjoy!
 					</p>
 					<button className="button-style-pur-link">
-						<Link to="/GamesHome/GameOne">Game One</Link>
+						<Link to="/GamesHome/GameOne/TicTacToe">Game One</Link>
 					</button>
 					<p>More info on game one coming when development is complet.</p>
 					<button className="button-style-pur-link">

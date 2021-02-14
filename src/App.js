@@ -9,6 +9,7 @@ import NotFound404Error from "./components/NotFound404";
 import GamesHome from "./pages/GamesHome";
 import GameOne from "./pages/games/GameOne";
 import GameTwo from "./pages/games/GameTwo";
+import TicTacToeGame from "./components/games/one/TicTacToeGame"
 //! Deps
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -35,7 +36,7 @@ function App() {
 						<Route exact path="/GamesHome">
 							<GamesHome />
 						</Route>
-						<Route exact path="/GamesHome/GameOne">
+						<Route exact path="/GamesHome/GameOne/TicTacToe">
 							<GameOne />
 						</Route>
 						<Route exact path="/GamesHome/GameTwo">
