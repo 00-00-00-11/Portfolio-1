@@ -1,4 +1,4 @@
-//! Pages
+//! Pages imports
 import MainHeader from "./components/Header";
 import MainFooter from "./components/Footer";
 import HomePage from "./pages/HomePage";
@@ -9,8 +9,7 @@ import NotFound404Error from "./components/NotFound404";
 import GamesHome from "./pages/GamesHome";
 import GameOne from "./pages/games/GameOne";
 import GameTwo from "./pages/games/GameTwo";
-import TicTacToeGame from "./components/games/one/TicTacToeGame"
-//! Deps
+//? Deps imports
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
