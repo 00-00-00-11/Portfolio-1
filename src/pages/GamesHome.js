@@ -21,11 +21,16 @@ function GamesHome() {
 					<button className="button-style-pur-link">
 						<Link to="/GamesHome/GameOne/TicTacToe">Game One</Link>
 					</button>
-					<p>More info on game one coming when development is complet.</p>
+					<p>Game one is a simple TicTacToe Game you can play with a friend.</p>
 					<button className="button-style-pur-link">
 						<Link to="/GamesHome/GameTwo">Game Two</Link>
 					</button>
 					<p>More info on game two coming when development is complet.</p>
+
+					<h2>Try out my Math Quiz.</h2>
+					<button className="button-style-pur-link">
+						<Link to="/GamesHome/MathQuiz">Math Quiz</Link>
+					</button>
 				</header>
 			</div>
 		</div>
