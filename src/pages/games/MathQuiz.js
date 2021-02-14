@@ -65,7 +65,7 @@ function MathQuiz() {
         <div>
            <div className="App">
 				<header className="App-header">
-					<h1>Hello Math Quiz!</h1>
+					<h1>Math Quiz!</h1>
                     <div
         className={"main-ui" + (mistakes === 3 || score === 10 ? " blurred" : "")}
       >
@@ -73,7 +73,7 @@ function MathQuiz() {
           {currentProblem.numberOne} {currentProblem.operator}{" "}
           {currentProblem.numberTwo}
         </p>
-
+        <p></p>
         <form onSubmit={handleSubmit} action="" className="our-form">
           <input
             ref={answerField}
@@ -85,15 +85,16 @@ function MathQuiz() {
           />
           <button>Submit</button>
         </form>
-
+            <p></p>
         <p className="status">
           You need {10 - score} more points, and are allowed to make{" "}
           {2 - mistakes} more mistakes.
         </p>
-
+        <p></p>
         <ProgressBar score={score} />
+          
       </div>
-
+        
       <div
         className={
           "overlay" + (mistakes === 3 || score === 10 ? " overlay--visible" : "")
